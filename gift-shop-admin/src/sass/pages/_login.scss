@@ -1,0 +1,23 @@
+@use "../abstract/mixing" as mix;
+@use "../abstract/functions" as fun;
+
+
+.login-card{
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    width: 90%;
+
+    @include mix.responsive(md){
+        width: 70%;
+    }
+    @include mix.responsive(lg){
+        width: 60%;
+    }
+
+    .login-header{
+        color: fun.color-theme('blue');
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+}

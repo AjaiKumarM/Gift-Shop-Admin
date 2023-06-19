@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+
+    <style>
+      @import
+      url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+      @import
+      url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+      @import
+      url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,600&display=swap");
+      @import
+      url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+      *{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins',
+      sans-serif;} body,html{background-color: #fff;width: 100%;height:
+      100%;overflow:visible;}.container{background-color: #fff;width:
+      100%;height: max-content;overflow: visible;padding-bottom: 30px;} .logo {
+      width: 23%; margin: 20px auto 0px; width: 80px;height: 80px;overflow:
+      hidden;display: flex;justify-content: center;align-items: center;}
+      .order-head{text-align: center;}.font-sm{font-size:
+      0.9rem;}.text-muted{color:rgba(59, 59, 59,
+      0.836);}.table-border>th{border-bottom: 1px solid rgba(0, 0, 0, 0.11);}
+      .table-body-border>td{border-bottom: 1px solid rgba(0, 0, 0,
+      0.089);}.text-green{color: lightgreen;}.mt-2{margin-top:
+      20px;}.forgot-footer > p { font-size: 0.9rem; text-align: center; color:
+      #49438549; }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="cid:gift" alt="logo" />
+      </div>
+      <div class="order-head">
+        <h2 style="line-height: 1;">Thanks for signing up,<br />{{name}}</h2>
+        <p style="margin-top: 20px;" class="font-sm text-muted">Please verify
+          your email address to get access to
+          <br />
+          buy thousands of products
+          <br /><span style="color: #FFE838;">Thank you</span></p>
+        <div style="margin-top: 30px;">
+          <p
+            style="margin:0 auto; background-color:#FFE838;width:fit-content;text-align:center;letter-spacing:6px;font-size:1.3rem;font-weight:600;padding:10px 10px 10px 13px;border-radius:5px;"
+          >{{otp}}</p>
+          <p style="text-align: center;margin-top:10px;font-size:0.8rem" class="text-muted" >(This code is vaild for 10 minutes)</p>
+        </div>
+        <div class="forgot-footer" style="margin-top: 30px;">
+          <p>I'll do my best to meet these shipping estimate,but cannot
+            guarantee them</p>
+          <p>Please feel free to contact us at email@giftshop.com.</p>
+          <p class="mt-2">Copyright &copy; 2023 Gift Shop.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

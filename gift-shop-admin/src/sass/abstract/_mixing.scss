@@ -1,0 +1,40 @@
+/*
+
+Breakpoint Class   infix	Dimensions
+X-Small         	None	<576px
+Small   	          sm	≥576px
+Medium  	          md	≥768px
+Large	              lg	≥992px
+Extra large 	      xl	≥1200px
+Extra extra large	 xxl	≥1400px
+*/
+
+
+@mixin responsive($dimension){
+
+    @if $dimension == xs {
+        @media only screen and (max-width:576px) {
+            @content;
+        }
+    } @else if $dimension == sm {
+        @media only screen and (min-width: 576px) {
+            @content;
+        }
+    }@else if $dimension == md {
+        @media only screen and (min-width: 768px) {
+            @content;
+        }
+    }@else if $dimension == lg {
+        @media only screen and (min-width: 992px) {
+            @content;
+        }
+    }@else if $dimension == xl {
+        @media only screen and (min-width: 1200px) {
+            @content;
+        }
+    }@else if $dimension == xxl {
+        @media only screen and (min-width:1400px) {
+            @content;
+        }
+    }
+}

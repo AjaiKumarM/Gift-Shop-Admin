@@ -1,0 +1,139 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.text-blue {
+  color: #484385 !important;
+}
+.fw-bold {
+  font-weight: 600;
+}
+.forgot-container {
+  display: flex;
+  align-items: center;
+}
+body {
+  background-color: rgba(90, 86, 128, 0.178);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+}
+.forgot-container {
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  padding: 30px 70px 30px 30px;
+  width: fit-content;
+  position: relative;
+  margin: 0 20px;
+}
+.forgot-head {
+  font-size: 1.8rem;
+}
+.forgot-text {
+  color: rgba(0, 0, 0, 0.671);
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+.forgot-content {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8156862745);
+}
+.btn-sc-primary {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ffe838;
+  border: 1px solid #484385;
+  border-bottom: 3px solid #484385;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+}
+.btn-sc-primary:active {
+  border-bottom: 1px solid #484385;
+  transform: scale(0.98);
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.forgot-lock {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forgot-lock > i {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.logo {
+  padding: 15px 20px 10px 20px;
+}
+.logo > h3 {
+  font-family: "Sacramento", cursive;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.logo > h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: -18px;
+  background-color: #ffe838;
+  width: 80px;
+  border-radius: 7px;
+  padding: 5px 10px 8px 10px;
+}
+@media only screen and (max-width: 576px) {
+  .forgot-head {
+    font-size: 1.4rem;
+  }
+  .btn-sc-primary {
+    padding: 5px 5px;
+    width: 95%;
+  }
+  .forgot-content {
+    text-align: center;
+  }
+  .forgot-btn {
+    margin: 20 auto 0;
+    width: 100%;
+  }
+  .forgot-container {
+    padding: 50px 10px;
+  }
+}
+.forgot-footer > p {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #49438549;
+}
+.flex-col {
+  flex-direction: column;
+}

@@ -1,0 +1,28 @@
+
+
+
+//Global
+@import "./base/global";
+
+
+//Admin Side bar
+@import "./components/adminSlidebar";
+
+//Nav toogler
+@import "./components/navtoggle";
+
+//LOaders
+@import "./Utils/loader";
+
+//Button 
+@import "./Utils/button";
+
+//Toaster 
+@import "./Utils/toaster";
+
+
+//dashboard page
+@import "./pages/dasnboard";
+
+//Login Page 
+@import "./pages/login";

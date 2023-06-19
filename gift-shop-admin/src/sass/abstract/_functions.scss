@@ -1,0 +1,5 @@
+@use "./variables" as var;
+
+@function color-theme($color:"yellow"){
+    @return map-get(var.$color-theme,$color)
+}

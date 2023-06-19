@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Cat-Eye Reading Glasses Look Essential",
+        "price": 19.50,
+        "description": "Style_name: Reading glasses || Lens material_type: high quality acylic || Glasses Type: Anti Reflective Eye protection glasses, to protect you from headaches, fatigue, brain embolism, always Protect your eyes from harmful light when you watch TV, look at computer, tablet, smartphone or other electronic devices.Frame material: tested polycarbonate used in making this super handy and super comfortable frames. It is extremely lightweight and easy to carry.Lens material: Acrylic. The lenses are are made from quality and crystal clear material easily enabling you to read small texts and minute details without any stress.How To Use: These glasses are designed to correct near-sightedness only. Not suitable for distance vision or driving a vehicle",
+        "ratings": 4.5,
+        "images": [
+            {
+                "image": "/images/products/eye-glass.jpg"
+            }
+        ],
+        "category": "Accessories",
+        "seller": "Amazon",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": [],
+        "numOfProductBuyCount":4
+    },
+    {
+        "name": "Crafted with passion Explosion box for valentine's day",
+        "price": 4.5,
+        "description": "This is the most unique and meaningful personal gift for your loved ones. This gift box will explode once opened, and reveal all the love you put into it. This “Explosion Box” is beautifully designed and decorated so that you can save some of the most memorable photos between the two of you. Rather than giving material goods, this is a special way to cherish beautiful moment . The perfect gift for Valentine's day , Mother's Day,Christmas,Birthday, Anniversary. Gift this special photo album to your loved one , families or to your BF/ GF, even record your baby's growth , anniversary , valentine , wedding and proposal photo album.",
+        "ratings": 3.5,
+        "images": [
+            {
+                "image": "/images/products/valentine.webp"
+            }
+        ],
+        "category": "Cards",
+        "seller": "Flipkart",
+        "stock": 9,
+        "numOfReviews": 5,
+        "reviews": [],
+        "numOfProductBuyCount":2
+    },
+    {
+        "name": "Women Grey Shoulder Bag - Regular Size",
+        "price": 440.57,
+        "description": "hand bags women style,ladies purse,ladies bag,purse for women hand bag party wear,purse,bag for women style,bags for girls,hand bag,hand bags,handbags for girls and ladies stylish Make your appearance more elegant and stylish with this affordable handbag from RITUPAL COLLECTION® - Identify Your Look, Define Your Style. Look uber stylish and trendy by wearing this handbag & it’s perfect for keeping your everyday essentials. Pair this bag with casuals of your liking to look smart. It provides new look with your party wears.",
+        "ratings": 2,
+        "images": [
+            {
+                "image": "/images/products/sholder-bag.jpg"
+            }
+        ],
+        "category": "Handbages",
+        "seller": "Ebay",
+        "stock": 9,
+        "numOfReviews": 12,
+        "reviews": [],
+        "numOfProductBuyCount":7
+    },
+    {
+        "name": "Alloy Rhodium Silver Jewel Set  (Pack of 1)",
+        "price": 20.3,
+        "description": "Elegance. Women Love jewellery as it not only enhances their beauty, but also gives them the social confidence. Festivals and celebrations are part of Indian culture and women like to traditionally dress themselves with latest trends in jewellery and R A Enterprises exactly fulfils that need for the occasion. The jewellery is made keeping in mind the Women ; who is today modern yet connected to our traditional values",
+        "ratings": 4,
+        "images": [
+          {
+            "image": "/images/products/silver-jewlary.jpg"
+          }
+        ],
+        "category": "Jewelries",
+        "seller": "Ebay",
+        "stock": 9,
+        "numOfReviews": 12,
+        "reviews": [],
+        "numOfProductBuyCount":3
+      },
+      {
+        "name": "Vivida Enterprise Dancing cactus Toy Talking ",
+        "price": 34.8,
+        "description": " Feature: 1. Fun and lovely cactus plush toys, can dance, sing, move. It's good for early education. 2. With the singing and humorous dancing, children's attention will be aroused and joyness will be brought to them! 3. Made of soft and comfortable plush fabric, colorless and tasteless, it is skin?friendly and is safe and hygienic. 4. Cheerful music and dancing are great for creating a pleasant ambience and for parties. 5. Great gift, cactus plush toys are the best holiday and birthday gifts for children. Adults can also decompress. Specification: Item Type: Plush Toys Material: Plush Color: As shown in the picture Product Size: Approx. 34x10x10cm / 13.4x3.9x3.9in Weight: Approx.240g/8.5oz Battery: 3 x AA battery(Not included) Music: 120 songs Function: Chinese and English song + shaking dance + repeat + recording + flash Package List: 1 x Plush Toys(Battery Not Included) Note: 1. Please allow 1?2in error due to manual measurement. Thanks for your understanding. 2. Monitors are not calibrated same, item color displayed in photos may be showing slightly different from the real object. Please take the real one as standard.",
+        "ratings": 5,
+        "images": [
+          {
+            "image": "/images/products/taking-toy.jpg"
+          }
+        ],
+        "category": "Toys",
+        "seller": "Ebay",
+        "stock": 9,
+        "numOfReviews": 12,
+        "reviews": [],
+        "numOfProductBuyCount":6
+    },
+    {
+        "name": "Men Casual Black Artificial Leather Wallet - Regular Size ",
+        "price": 15.46,
+        "description": "Introducing perfect blend of stylish color . Stylish design That Looks Super Modern, Stylish And Sophisticated. Buy This Wallet For Yourself And It Also Makes A Perfect Gift For Anyone. This Men's Wallet Features Credit, Debit And Visiting Card Pockets, Currency Compartment, To Keep Your Important Essentials Always Ready For Use. It Is Made From Imported material To Last Long Specifications",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/products/black-wallet.jpg"
+            }
+        ],
+        "category": "Wallets",
+        "seller": "Amazon",
+        "stock": 4,
+        "numOfReviews": 20,
+        "reviews": [],
+        "numOfProductBuyCount":2
+    }
+]

@@ -1,0 +1,150 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Gift Shop Reset Password</title>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+      />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+        @import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.text-blue {
+  color: #484385 !important;
+}
+.fw-bold {
+  font-weight: 600;
+}
+body {
+  background-color: rgba(90, 86, 128, 0.178);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.forgot-container {
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  padding: 30px 70px 30px 30px;
+  width: fit-content;
+  position: relative;
+  margin: 0 20px;
+}
+.forgot-head {
+  font-size: 1.8rem;
+}
+.forgot-text {
+  color: rgba(0, 0, 0, 0.671);
+  margin-top: 20px;
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8156862745);
+}
+.btn-sc-primary {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ffe838;
+  border: 1px solid #484385;
+  border-bottom: 3px solid #484385;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+}
+.btn-sc-primary:active {
+  border-bottom: 1px solid #484385;
+  transform: scale(0.98);
+}
+.mt-2 {
+  margin-top: 20px;
+}
+
+.pt-1{
+    padding-top: 10px;
+}
+
+.logo { width: 23%; margin: 20px auto 0; width: 80px;height: 80px;overflow: hidden;display: flex;justify-content: center;align-items: center;}
+@media only screen and (max-width: 576px) {
+  .forgot-head {
+    font-size: 1.4rem;
+  }
+  .btn-sc-primary {
+    padding: 5px 5px;
+    width: 95%;
+  }
+  .forgot-content {
+    text-align: center;
+  }
+  .forgot-btn {
+    margin: 20px auto;
+    width: 100%;
+  }
+  .forgot-container {
+    padding: 20px 10px;
+  }
+}
+.forgot-footer > p {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #49438549;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container" style="flex-direction: column;">
+      <div class="forgot-container flex-col">
+        <div class="forgot-content flex-col">
+          <h2 class="text-blue fw-bold forgot-head ">Forgot Your password ?</h2>
+          <span class="forgot-text" style="padding-top: 20px;">Hey,We recevied a request to reset your
+            password</span><br>
+          <span class="forgot-text">Let's get you a new one!</span>
+          <div class="forgot-btn mt-2"><a
+              class="btn-sc-primary mt-2"
+              style="color: black;"
+              href={{link}}
+            >RESET MY PASSWORD</a></div>
+          <span class="forgot-text pt-1">Having troble ?
+            <span class="fw-bold">@socialaccount</span></span><br>
+          <span class="forgot-text">Did't request a password reset? You can
+            ignore this message</span>
+
+        </div>
+      </div>
+           <div class="logo" >
+        <img src="cid:gift" alt="logo" style="mix-blend-mode: multiply;"/>
+      </div>
+      <div class="forgot-footer mt-2">
+        <p>This link will expire in the next 30min.</p>
+        <p>Please feel free to contact us at email@giftshop.com.</p>
+        <p class="mt-2">Copyright &copy; 2023 Gift Shop.</p>
+      </div>
+    </div>
+  </body>
+</html>

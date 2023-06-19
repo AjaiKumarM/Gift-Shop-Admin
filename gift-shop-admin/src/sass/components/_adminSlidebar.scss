@@ -1,0 +1,127 @@
+@use "../abstract/functions" as fun;
+@use "../abstract/variables" as var;
+@use "../abstract/mixing" as mix;
+
+.sidebar-container{
+    z-index: 2;
+    position: fixed;
+    width: 240px;
+    height: 96vh;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    top: 15px;
+    left: 10px;
+    border-radius: 20px;
+    transform: translateX(-250px);
+    transition: all 600ms ease-in-out;
+
+    &.active-sidebar{
+        width: 240px;
+        transform: translateX(0px);
+    }
+
+    @include mix.responsive(lg){
+        width: 240px;
+        transform: translateX(0px);
+    }
+    .sidebar-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid fun.color-theme("vvlight-blue");
+
+        i{
+            color: fun.color-theme("light-blue");
+            margin-right: 30px;
+        }
+    }
+
+    .sidebar-head{
+        padding: 15px 20px 10px 20px;
+        :nth-child(1){
+            font-family: var.$font-curly;
+            font-weight: 600;
+            font-size: 1.4rem;
+        }
+        :nth-child(2){
+            font-family: var.$font-poppins;
+            text-align: center;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: -18px;
+            background-color: fun.color-theme();
+            width: 80px;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+    }
+    .sidebar-list{
+        margin-top: 30px;
+        margin-right: 30px;
+
+        li{
+            padding: 7px 0 7px 20px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 100ms;
+            
+
+            span{
+                color: rgba(0, 0, 0, 0.596);
+            }
+
+            i{
+                margin-top: 7px;
+            }
+
+            &.sidebar-list-active{
+                background-color: fun.color-theme("vvlight-blue");
+                border-left: 3px solid fun.color-theme('blue');
+                cursor: pointer;
+                
+                span{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+.bacground-blue{
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 33%;
+    background-color: fun.color-theme("blue");
+    top: 0px;
+    right: 0;
+}
+
+.purple{
+    color: rgba(173, 3, 173, 0.726);
+}
+.light-red{
+    color: rgba(255, 0, 0, 0.555);
+}
+.light-green{
+    color: lightgreen;
+}
+.light-blue{
+    color: aqua;
+}
+
+.logout{
+    padding: 30px 0;
+    .logout-content{
+        text-align: center;
+    
+        p{
+            color: fun.color-theme("blue");
+        }
+    }
+
+}

@@ -1,0 +1,185 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+
+    <style>
+      @import
+      url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+      @import
+      url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+      @import
+      url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,600&display=swap");
+      @import
+      url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+      *{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins',
+      sans-serif;} body,html{background-color: #fff;width: 100%;height:
+      100%;overflow:visible;}.container{background-color: #fff;width:
+      100%;height: max-content;overflow: visible;padding-bottom: 30px;} .logo {
+      width: 23%; margin: 20px auto 0px; width: 80px;height: 80px;overflow:
+      hidden;display: flex;justify-content: center;align-items: center;}
+      .order-head{text-align: center;}.font-sm{font-size:
+      0.9rem;}.text-muted{color:rgba(59, 59, 59,
+      0.836);}.table-border>th{border-bottom: 1px solid rgba(0, 0, 0, 0.11);}
+      .table-body-border>td{border-bottom: 1px solid rgba(0, 0, 0,
+      0.089);}.text-green{color: lightgreen;}.mt-2{margin-top:
+      20px;}.forgot-footer > p { font-size: 0.9rem; text-align: center; color:
+      #49438549; }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="logo">
+        <img src="cid:gift" alt="logo" />
+      </div>
+      <div class="order-head">
+        <h3 style="text-align: center;font-size:1.5rem">Thanks for your order</h3>
+        <p
+          style="text-align:center;font-size:0.9rem;color:rgba(59, 59, 59, 0.836);margin-top:20px"
+        >You'll recevie an email when your items are shipper .if you have any
+          question,Call us 1-800-1234-5678</p>
+        <div style="margin-top: 30px;">
+          <a href={{link}}
+            style="padding: 10px 10px;background-color:#ffe838;border: 1px solid #484385;border-bottom: 3px solid #484385;font-weight: 600;border-radius:7px;cursor:pointer;color:black"
+          >View Order status</a>
+        </div>
+      </div>
+      <div style="margin: 40px 5px 20px 10px;display:flex">
+        <div
+          style="margin-right:6px;width: 50%;height:max-content;background-color:#49438517;padding:16px 10px;border-radius:10px"
+        >
+          <div style="margin-bottom:9px">
+            <h4>SUMMARY</h4>
+          </div>
+          <div style="display: flex;">
+            <h6 style="font-size: 0.9rem;">Order ID:</h6>
+            <p
+              style="font-size: 0.9rem;margin-left:5px;color:rgba(59, 59, 59, 0.836);"
+            >#{{orderId}}</p>
+          </div>
+          <div style="display: flex;justify-content:space-between;">
+            <h6 style="font-size: 0.9rem;">Order Date:</h6>
+            <p
+              style="font-size: 0.9rem;margin-left:5px;color:rgba(59, 59, 59, 0.836);"
+            >{{orderDate}}</p>
+          </div>
+          <div style="display: flex;justify-content:space-between;">
+            <h6 style="font-size: 0.9rem;">Order Status:</h6>
+            <p
+              style="font-size: 0.9rem;margin-left:5px;color:rgba(59, 59, 59, 0.836);"
+            >{{orderStatus}}</p>
+          </div>
+          <div style="display: flex;justify-content:space-between;">
+            <h6 style="font-size: 0.9rem;">Order Total:</h6>
+            <p
+              style="font-size: 0.9rem;margin-left:5px;color:rgba(59, 59, 59, 0.836);"
+            >${{orderTotal}}</p>
+          </div>
+        </div>
+        <div
+          style="width: 50%;height:max-content;background-color:#49438517;padding:15px 10px;border-radius:10px"
+        >
+          <div style="margin-bottom:9px">
+            <h4>SHIPPING ADDRESS</h4>
+          </div>
+          <div style="line-height: 1.2;">
+            <h6 style="font-size: 0.9rem;">{{name}}</h6>
+            <p class="font-sm text-muted">{{address}},</p>
+            <p class="font-sm text-muted">{{city}},</p>
+            <p
+              class="font-sm text-muted"
+              style="text-transform:lowercase"
+            >{{district}}-{{pincode}}</p>
+          </div>
+        </div>
+      </div>
+      <div style="margin: 40px 10px 10px 10px;">
+        <div style="width: 99%;overflow-x:scroll">
+          <table style="border-collapse: collapse;width:100%">
+            <thead>
+              <tr class="table-border">
+                <th style="padding-bottom: 10px;">ITEMS ORDERED</th>
+                <th style="padding: 0 20px 10px 20px;">QTY</th>
+                <th style="padding-bottom: 10px;">PRICE</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each orderItems}}
+                <tr
+                  style="font-size: 0.8rem;text-align:center;"
+                  class="text-muted table-body-border"
+                >
+                  <td style="padding:15px 0">{{this.name}}</td>
+                  <td style="padding:15px 0">{{this.quantity}}</td>
+                  <td style="padding:15px 0">${{this.price}}</td>
+                </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div style="margin:20px 30px 20px 20px">
+        <div style="width: 100%;">
+          <div class="font-sm">
+            <h5 style="float: right;"><span style="margin-right: 25px;">Subtotal
+                ({{totalItems}}
+                items):</span><span
+                class="text-muted"
+                style="font-weight: 500;"
+              >${{subtotal}}</span></h5>
+          </div><br />
+          <div class="font-sm">
+            <h5 style="float: right;"><span style="margin-right: 25px;">Shipping
+                Price :</span><span
+                class={{ShippingColor}}
+                style="font-weight: 500;"
+              >{{shippingPrice}}</span></h5>
+          </div><br />
+          <div class="font-sm">
+            <h5 style="float: right;"><span style="margin-right: 25px;">Tax
+                Price:
+              </span><span
+                class="text-muted"
+                style="font-weight: 500;"
+              >${{taxPrice}}</span></h5>
+          </div><br />
+          <div class="font-sm">
+            <h5 style="float: right;"><span
+                style="margin-right: 25px;font-size:0.9rem"
+              >
+                Order Total:
+              </span><span
+                style="font-weight: 500;color:#484385;font-weight:600"
+              >${{orderTotal}}</span></h5>
+          </div><br />
+        </div>
+      </div>
+      <div class="logo">
+        <img src="cid:gift" alt="logo" />
+      </div>
+      <div class="forgot-footer mt-2">
+        <p>I'll do my best to meet these shipping estimate,but cannot guarantee them</p>
+        <p>Please feel free to contact us at email@giftshop.com.</p>
+        <p class="mt-2">Copyright &copy; 2023 Gift Shop.</p>
+      </div>
+    </div>
+  </body>
+</html>

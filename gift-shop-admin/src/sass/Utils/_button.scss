@@ -1,0 +1,39 @@
+@use "../abstract/functions" as fun;
+
+.btn-sc-primary{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: fun.color-theme("yellow");
+    border: 1px solid fun.color-theme("blue");
+    border-bottom: 3px solid fun.color-theme("blue");
+    font-weight: 600;
+    cursor: pointer;
+
+    &:active{
+        border-bottom: 1px solid fun.color-theme("blue");
+        transform: scale(0.98);
+    }
+}
+
+.btn-sc-primary-outline{
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 1px solid fun.color-theme("blue");
+    border-bottom: 3px solid fun.color-theme("blue");
+    color: fun.color-theme("blue");
+    font-weight: 600;
+    cursor: pointer;
+
+
+    &:hover{
+        background-color: fun.color-theme("yellow");
+        color: fun.color-theme('dark');
+    }
+
+    &:active{
+        border-bottom: 1px solid fun.color-theme("blue");
+        transform: scale(0.98);
+    }
+
+
+}
